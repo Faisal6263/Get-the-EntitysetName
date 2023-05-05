@@ -1,0 +1,5 @@
+First Go to Solution > Select the Entity you want their "EntitySetName" that you want to use in Power Automate to set the lookup field 
+Solution > Entity > Properties > Logical Name of that Entity > 
+https://cimdev1.crm4.dynamics.com/api/data/v9.1/EntityDefinitions(LogicalName='<-------Paste Your Entity Logical Name Here--into the inverted Commas----->')?%24select=EntitySetName
+Done --- Press Enter you will get the name and after that you can set it By using that EntitySetName Like This ---------> /contacts(Dynamic Value)
+That could be set on Lookup field only 
